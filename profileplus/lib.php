@@ -1,11 +1,11 @@
 <?php  // $Id: lib.php,v 1.7.2.5 2009/04/22 21:30:57 skodak Exp $
 
 /**
- * Library of functions and constants for module newmodule
+ * Library of functions and constants for module profileplus
  * This file should have two well differenced parts:
  *   - All the core Moodle functions, neeeded to allow
  *     the module to work integrated in Moodle.
- *   - All the newmodule specific functions, needed
+ *   - All the profileplus specific functions, needed
  *     to implement all the module logic. Please, note
  *     that, if the module become complex and this lib
  *     grows a lot, it's HIGHLY recommended to move all
@@ -15,9 +15,9 @@
  *     actions across all modules.
  */
 
-/// (replace newmodule with the name of your module and delete this line)
+/// (replace profileplus with the name of your module and delete this line)
 
-$newmodule_EXAMPLE_CONSTANT = 42;     /// for example
+$profileplus_EXAMPLE_CONSTANT = 42;     /// for example
 
 
 /**
@@ -26,16 +26,16 @@ $newmodule_EXAMPLE_CONSTANT = 42;     /// for example
  * will create a new instance and return the id number
  * of the new instance.
  *
- * @param object $newmodule An object from the form in mod_form.php
- * @return int The id of the newly inserted newmodule record
+ * @param object $profileplus An object from the form in mod_form.php
+ * @return int The id of the newly inserted profileplus record
  */
-function newmodule_add_instance($newmodule) {
+function profileplus_add_instance($profileplus) {
 
-    $newmodule->timecreated = time();
+    $profileplus->timecreated = time();
 
     # You may have to add extra stuff in here #
 
-    return insert_record('newmodule', $newmodule);
+    return insert_record('profileplus', $profileplus);
 }
 
 
@@ -44,17 +44,17 @@ function newmodule_add_instance($newmodule) {
  * (defined by the form in mod_form.php) this function
  * will update an existing instance with new data.
  *
- * @param object $newmodule An object from the form in mod_form.php
+ * @param object $profileplus An object from the form in mod_form.php
  * @return boolean Success/Fail
  */
-function newmodule_update_instance($newmodule) {
+function profileplus_update_instance($profileplus) {
 
-    $newmodule->timemodified = time();
-    $newmodule->id = $newmodule->instance;
+    $profileplus->timemodified = time();
+    $profileplus->id = $profileplus->instance;
 
     # You may have to add extra stuff in here #
 
-    return update_record('newmodule', $newmodule);
+    return update_record('profileplus', $profileplus);
 }
 
 
@@ -66,9 +66,9 @@ function newmodule_update_instance($newmodule) {
  * @param int $id Id of the module instance
  * @return boolean Success/Failure
  */
-function newmodule_delete_instance($id) {
+function profileplus_delete_instance($id) {
 
-    if (! $newmodule = get_record('newmodule', 'id', $id)) {
+    if (! $profileplus = get_record('profileplus', 'id', $id)) {
         return false;
     }
 
@@ -76,7 +76,7 @@ function newmodule_delete_instance($id) {
 
     # Delete any dependent records here #
 
-    if (! delete_records('newmodule', 'id', $newmodule->id)) {
+    if (! delete_records('profileplus', 'id', $profileplus->id)) {
         $result = false;
     }
 
@@ -94,7 +94,7 @@ function newmodule_delete_instance($id) {
  * @return null
  * @todo Finish documenting this function
  */
-function newmodule_user_outline($course, $user, $mod, $newmodule) {
+function profileplus_user_outline($course, $user, $mod, $profileplus) {
     return $return;
 }
 
@@ -106,20 +106,20 @@ function newmodule_user_outline($course, $user, $mod, $newmodule) {
  * @return boolean
  * @todo Finish documenting this function
  */
-function newmodule_user_complete($course, $user, $mod, $newmodule) {
+function profileplus_user_complete($course, $user, $mod, $profileplus) {
     return true;
 }
 
 
 /**
  * Given a course and a time, this module should find recent activity
- * that has occurred in newmodule activities and print it out.
+ * that has occurred in profileplus activities and print it out.
  * Return true if there was output, or false is there was none.
  *
  * @return boolean
  * @todo Finish documenting this function
  */
-function newmodule_print_recent_activity($course, $isteacher, $timestart) {
+function profileplus_print_recent_activity($course, $isteacher, $timestart) {
     return false;  //  True if anything was printed, otherwise false
 }
 
@@ -132,39 +132,39 @@ function newmodule_print_recent_activity($course, $isteacher, $timestart) {
  * @return boolean
  * @todo Finish documenting this function
  **/
-function newmodule_cron () {
+function profileplus_cron () {
     return true;
 }
 
 
 /**
  * Must return an array of user records (all data) who are participants
- * for a given instance of newmodule. Must include every user involved
+ * for a given instance of profileplus. Must include every user involved
  * in the instance, independient of his role (student, teacher, admin...)
  * See other modules as example.
  *
- * @param int $newmoduleid ID of an instance of this module
+ * @param int $profileplusid ID of an instance of this module
  * @return mixed boolean/array of students
  */
-function newmodule_get_participants($newmoduleid) {
+function profileplus_get_participants($profileplusid) {
     return false;
 }
 
 
 /**
- * This function returns if a scale is being used by one newmodule
+ * This function returns if a scale is being used by one profileplus
  * if it has support for grading and scales. Commented code should be
  * modified if necessary. See forum, glossary or journal modules
  * as reference.
  *
- * @param int $newmoduleid ID of an instance of this module
+ * @param int $profileplusid ID of an instance of this module
  * @return mixed
  * @todo Finish documenting this function
  */
-function newmodule_scale_used($newmoduleid, $scaleid) {
+function profileplus_scale_used($profileplusid, $scaleid) {
     $return = false;
 
-    //$rec = get_record("newmodule","id","$newmoduleid","scale","-$scaleid");
+    //$rec = get_record("profileplus","id","$profileplusid","scale","-$scaleid");
     //
     //if (!empty($rec) && !empty($scaleid)) {
     //    $return = true;
@@ -175,15 +175,15 @@ function newmodule_scale_used($newmoduleid, $scaleid) {
 
 
 /**
- * Checks if scale is being used by any instance of newmodule.
+ * Checks if scale is being used by any instance of profileplus.
  * This function was added in 1.9
  *
  * This is used to find out if scale used anywhere
  * @param $scaleid int
- * @return boolean True if the scale is used by any newmodule
+ * @return boolean True if the scale is used by any profileplus
  */
-function newmodule_scale_used_anywhere($scaleid) {
-    if ($scaleid and record_exists('newmodule', 'grade', -$scaleid)) {
+function profileplus_scale_used_anywhere($scaleid) {
+    if ($scaleid and record_exists('profileplus', 'grade', -$scaleid)) {
         return true;
     } else {
         return false;
@@ -197,7 +197,7 @@ function newmodule_scale_used_anywhere($scaleid) {
  *
  * @return boolean true if success, false on error
  */
-function newmodule_install() {
+function profileplus_install() {
     return true;
 }
 
@@ -208,14 +208,14 @@ function newmodule_install() {
  *
  * @return boolean true if success, false on error
  */
-function newmodule_uninstall() {
+function profileplus_uninstall() {
     return true;
 }
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-/// Any other newmodule functions go here.  Each of them must have a name that
-/// starts with newmodule_
+/// Any other profileplus functions go here.  Each of them must have a name that
+/// starts with profileplus_
 /// Remember (see note in first lines) that, if this section grows, it's HIGHLY
 /// recommended to move all funcions below to a new "localib.php" file.
 
