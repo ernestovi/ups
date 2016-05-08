@@ -56,7 +56,15 @@ Main header properties
 	margin-left:53px;
 }
 
-
+#userName{
+	
+	font-size:9px;
+	color:#333366;
+	font-family:'futuramedium';
+	text-align:center;
+	margin-right:30px;
+	margin-left:53px;
+}
 
 
 .iconLanguage {

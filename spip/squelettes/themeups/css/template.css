@@ -82,7 +82,8 @@ Footer properties
 footer section{
 	
 	display:inline-block;
-	
+	width:250px;
+	margin-bottom:58px;
 }
 
 footer{
@@ -132,7 +133,11 @@ font-size:18px;
 }
 
 
-
+footer input{
+	
+	height:30px;
+	width:180px;
+}
 
 
 
