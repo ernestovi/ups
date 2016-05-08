@@ -17,48 +17,45 @@ Main header properties
 	
 	height:5%;
 	width:100%;
-	margin:auto;
-	margin-top:32px;
 	text-align:center;
-
+	margin-bottom:20px;
 }
 
 #iconMenu {
 	
-	height:23px;
-	width:37px;
+	height:47px;
+	width:53px;
 
 }
 
 #logo {
 	
-	height:30px;
-	width:30px;
+	height:50px;
+	width:50px;
 	margin-left:37px;
 		
 }
 
 #logoText {
 	
-	font-size:12px;
+	font-size:15px;
 	font-family:'futuramedium';
 	font-variant:small-caps;
 	color:#333366;
-	
-	margin-left:3px;
+	margin-left:2px;
 }
 
 #iconUser {
 	
-	height:18px;
-	width:18px;
+	height:28px;
+	width:28px;
 	margin-right:20px;
 	margin-left:20px;
 }
 
 #userName{
 	
-	font-size:6px;
+	font-size:10px;
 	color:#333366;
 	font-family:'futuramedium';
 	text-align:center;
@@ -74,4 +71,73 @@ Main header properties
 	width:27px;
 }
 
+
+
+
+/***
+
+Footer properties
+
+***/
+
+footer section{
+	
+	display:inline;
+}
+
+footer{
+	
+	background-color:#333366;
+	height:880px;
+	width:100%;
+	color:white;
+	text-align:center;
+	font-family:'futuramedium';
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:15px;
+
+}
+
+footer b{
+	
+	font-variant:small-caps;
+	margin-top:20px;
+}
+
+footer a:hover{
+	
+	color:#ff6666;
+}
+
+
+footer img{
+	
+	width:50px;
+	height:50px;
+}
+
+footer h4{
+	
+	display:block;
+	font-size:12px;
+}
+
+footer button{
+	
+height:35px;
+width:129px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-size:13px;
+}
+
+
+footer input{
+	
+	height:30px;
+	width:157px;
+}
 }
