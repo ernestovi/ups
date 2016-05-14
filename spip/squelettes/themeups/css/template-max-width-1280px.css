@@ -77,6 +77,15 @@ Main header properties
 
 /***
 
+Body properties
+
+***/
+
+
+
+
+/***
+
 Footer properties
 
 ***/
@@ -109,7 +118,13 @@ footer b{
 
 footer a:hover{
 	
-	color:#ff6666;
+	color:#99cc99;
+}
+
+
+footer a{
+	
+	color:#ffffff;
 }
 
 
@@ -141,4 +156,5 @@ footer input{
 	height:30px;
 	width:180px;
 }
+
 }

@@ -72,6 +72,19 @@ Main header properties
 	margin:2px;
 }
 
+/***
+
+Body properties
+
+***/
+ 
+ a, a:hover, a:visited{
+	 color:#99cc99;
+	 background-color:transparent;
+ }
+ 
+ 
+
 
 /***
 
@@ -106,9 +119,16 @@ footer b{
 
 footer a:hover{
 	
-	color:#ff6666;
+	color:#99cc99;
+	background-color:transparent;
 }
 
+
+footer a{
+	
+	color:#ffffff;
+	
+}
 
 footer img{
 	
