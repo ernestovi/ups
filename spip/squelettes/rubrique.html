@@ -13,7 +13,7 @@
 	
 	<script src="#CHEMIN{themeups\js\bootstrap.min.js}"></script>
 	<link rel="stylesheet" type="text/css" href="#CHEMIN{themeups/css/bootstrap.min.css}">
-	<link rel="stylesheet" type="text/css" href="#CHEMIN{themeups/css/template.css}">
+	<link rel="stylesheet" type="text/css" href="#CHEMIN{themeups/css/accueil.css}">
   
 </head>
 
@@ -79,17 +79,67 @@
 				<b>Espace privé et de collaboration</b>
 			</div>
 			
-			<div class="signUpInfo">
+				<div class="container">
+					<div id="privateSpacesCarousel" class="carousel slide">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active signUpInfo">
+								<h3>Nos signataires</h3>										
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+						
+								<button type="button" onclick="alert('Ceci est un test Signataire!')">S'inscrire en tant que Signataire</button>
+						
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<br>
+							</div>
+							
+							<div class="item signUpInfo">
+								<h3>Nos formateurs</h3>					
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+						
+								<button type="button" onclick="alert('Ceci est un test Formateur!')">S'inscrire en tant que Formateur</button>
+						
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<br>
+							</div>
+							
+							<div class="item signUpInfo">
+								<h3>Nos tuteurs</h3>
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+						
+								<button type="button" onclick="alert('Ceci est un test Tuteur!')">S'inscrire en tant que Tuteur</button>
+						
+								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<br>
+							</div>
+							
+						</div>
+						
+						<a class="left carousel-control" href="#privateSpacesCarousel" role="button" data-slide="prev">
+							<img class="leftAngle" id="leftAnglePrivateSpaces" src="#CHEMIN{themeups\img\angle.png}"/>
+						</a>
+						
+						<a class="right carousel-control" href="#privateSpacesCarousel" role="button" data-slide="next">
+							<img class="rightAngle" id="rightAnglePrivateSpaces" src="#CHEMIN{themeups\img\angle.png}"/>
+						</a>
+						
+					</div>
+				</div>
 			
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
-			Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
-			nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
-			magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
-			scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
-			<button type="button" onclick="alert('Ceci est un test!')">S'inscrire en tant que Signataire</button>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
-			Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
-			<br></div>
 			<div class="homeLinks">
 			<a href="#">Se connecter</a>
 			</div>
@@ -106,7 +156,7 @@
 					<img src="#CHEMIN{themeups\img\logo-ila.jpg}"/>-->
 
 		<div class="container">				
-			<div id="myCarousel" class="carousel slide">
+			<div id="ilaSouriaCarousel" class="carousel slide">
 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
@@ -115,25 +165,25 @@
 				</div>
 
 				<div class="item">
-					<img src="#CHEMIN{themeups\img\logo-ila.jpg}">
+					<img src="#CHEMIN{themeups\img\zaa-expo-a-450x338.jpg}">
 				</div>
 
 				<div class="item">
-					<img src="#CHEMIN{themeups\img\logo-ila.jpg}">
+					<img src="#CHEMIN{themeups\img\wdh-02-450x338.jpg}">
 				</div>
 
 				<div class="item">
-					<img src="#CHEMIN{themeups\img\logo-ila.jpg}">
+					<img src="#CHEMIN{themeups\img\zaat12-450x338.jpg}">
 				</div>
 			</div>
 
 			<!-- Left and right controls -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<img id="leftAngle" src="#CHEMIN{themeups\img\angle.png}"/>
+			<a class="left carousel-control" id="leftAngleIla" href="#ilaSouriaCarousel" role="button" data-slide="prev">
+				<img class="leftAngle" src="#CHEMIN{themeups\img\angle.png}"/>
 			</a>
 			
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<img id="rightAngle" src="#CHEMIN{themeups\img\angle.png}"/>
+			<a class="right carousel-control" id="rightAngleIla" href="#ilaSouriaCarousel" role="button" data-slide="next">
+				<img class="rightAngle" src="#CHEMIN{themeups\img\angle.png}"/>
 			</a>
 			
 			</div>
@@ -141,7 +191,7 @@
 		</div>
 								
 			<div class="homeLinks">
-			<a href="www.ilasouria.org">ilasouria.org</a>
+			<a href="http://ilasouria.org">ilasouria.org</a>
 			</div>
 		</div>
 		
