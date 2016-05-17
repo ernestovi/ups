@@ -1,8 +1,6 @@
-
-
 /**************************************************************
 ***************************************************************
-POLICES
+FONTS
 ***************************************************************
 ***************************************************************/
 
@@ -30,6 +28,71 @@ POLICES
 
 }
 
+
+/***************************************************************************************
+****************************************************************************************
+RESOLUTION SCREEN : 600px MAX WIDTH
+****************************************************************************************
+****************************************************************************************/
+
+@media screen and (max-width: 600px){
+
+/**************************************************************
+***************************************************************
+MENU
+***************************************************************
+***************************************************************/
+
+.menuCategory{
+	
+	height:50px;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#333366;
+	color:#333366;
+	font-weight:bolder;
+	line-height:50px;
+	font-size:15px;
+
+	
+}
+
+#menuSlide{
+
+		width:100%;
+		display:block;
+		text-align:center;
+		background-color:#cccccc;
+		font-family:futuramedium;
+}
+
+.menuCategory:hover{
+	
+	background-color:#99cc99;
+}
+
+#searchBar{
+	
+	margin:20px;
+}
+
+.icon{
+	
+	text-align:right;
+ }
+ 
+ .glyphicon{
+	 
+	 	color:#333366;
+
+ }
+ 
+ .glyphicon:hover{
+	
+		color:#99cc99;
+		text-shadow: 0.1em 0.1em #333366;
+ }
 /**************************************************************
 ***************************************************************
 HEADER PROPERTIES
@@ -247,6 +310,9 @@ margin:5px;
 	border-style:solid;
 	border-width:2px;
 	margin:20px;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .signUpInfo h4{
@@ -394,6 +460,1327 @@ footer h4{
 }
 
 
+}
 
 
 
+
+
+
+/***************************************************************************************
+****************************************************************************************
+RESOLUTION SCREEN : 600px MIN WIDTH
+****************************************************************************************
+****************************************************************************************/
+
+@media screen and (min-width: 600px){
+
+/**************************************************************
+***************************************************************
+MENU
+***************************************************************
+***************************************************************/
+
+.menuCategory{
+	
+	height:50px;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#333366;
+	color:#333366;
+	font-weight:bolder;
+	line-height:50px;
+	font-size:15px;
+
+	
+}
+
+#menuSlide{
+
+		width:100%;
+		display:block;
+		text-align:center;
+		background-color:#cccccc;
+		font-family:futuramedium;
+}
+
+.menuCategory:hover{
+	
+	background-color:#99cc99;
+}
+
+#searchBar{
+	
+	margin:20px;
+}
+
+.icon{
+	
+	text-align:right;
+ }
+ 
+ .glyphicon{
+	 
+	 	color:#333366;
+
+ }
+ 
+ .glyphicon:hover{
+	
+		color:#99cc99;
+		text-shadow: 0.1em 0.1em #333366;
+ }
+/**************************************************************
+***************************************************************
+HEADER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Header common properties */
+
+
+#mainHeader {
+	
+	height:200px;
+	width:100%;
+	text-align:center;
+	margin-bottom:30px;	
+
+}
+
+/* Header images common properties */
+
+#mainHeader img{
+	
+	vertical-align:0;
+}
+
+/* Header links common properties */
+
+#mainHeader a{
+	
+	font-family:futuramedium;
+	font-size:15px;
+}
+
+
+/* Icon Menu properties */
+
+#iconMenu {
+	
+	height:40px;
+	width:40px;
+	margin-right:20px;
+
+}
+
+/* Header first line properties */
+
+#lineHeader1 * {
+	
+	display:inline;
+	margin-top:10px;
+
+}
+
+#logo {
+	
+	height:70px;
+	width:70px;
+	margin-left:150px;
+	margin-right:120px;
+		
+}
+
+
+#iconUser {
+	
+	height:38px;
+	width:40px;
+	margin-left:20px;
+
+
+}
+
+/* Header second line properties */
+
+#lineHeader2 * {
+	
+	display:inline;
+	margin-top:10px;
+}
+
+#lineHeader2 h1 {
+	
+	font-size:20px;
+	font-family:'futuramedium';
+	font-variant:small-caps;
+	color:#333366;
+	margin-left:130px;
+	margin-right:55px;
+
+} 
+
+/* Header third line properties */
+
+#lineHeader3 a{
+	
+	margin-left:425px;
+
+}
+
+/* header fourth line properties */
+
+#lineHeader4 * {
+	
+	display:inline;
+
+}
+
+#lineHeader4{
+	
+	margin-left:425px;
+
+}
+
+.iconLanguage {
+	
+	height:27px;
+	width:27px;
+	margin-top:5px;
+}
+
+/**************************************************************
+***************************************************************
+BODY PROPERTIES
+***************************************************************
+***************************************************************/
+
+ a, a:hover, a:visited{
+	 color:#ff6666;
+	 background-color:transparent;
+	 font-weight:bolder;
+ }
+ 
+button{
+	
+height:50px;
+width:228px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-weight:bolder;
+font-size:15px;
+margin:5px;
+
+}
+ 
+ /* Parts title and bottom link */
+ 
+.title{
+	 
+	 background-color:#cccccc;
+	 height:60px;
+	 font-family:futuramedium;
+	 font-size:15px;
+	 text-align:left;	 
+	 padding-left:10px;
+
+ }
+ 
+.homeLinks{
+	 
+	 background-color:#cccccc;
+	 height:60px;
+	 font-family:futuramedium;
+	 font-size:15px;
+	 line-height:60px;
+	 text-align:left;	 
+	 padding-left:10px;
+ }
+ 
+ 
+/* Parts common properties */
+
+#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+	
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+	color:#333366;
+}
+
+/* Popular course images properties */
+#popularCourse img{
+	
+	height:300px;
+	width:450px;
+}
+
+ 
+
+/* Part : Private spaces, Sign Up information */
+
+
+#privateSpaces .title, #ilaSouria .title, #upButton .title{
+	
+	line-height:60px;
+}
+
+#privateSpaces h3{
+	
+	font-family:futuramedium;
+	font-size:18px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+#privateSpaces h4{
+	
+	margin:10px;
+	
+}
+
+.signUpInfo{
+	
+	border-color:#333366;
+	border-style:solid;
+	border-width:2px;
+	margin:20px;
+	width:350px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+
+.signUpInfo h4{
+	
+	font-family:petronaregular;
+	font-size:15px;
+	text-align:left;
+	padding-left:5px;
+}
+
+/* Carousels common properties */
+.leftAngle{
+	
+	transform:rotateZ(90deg);
+}
+
+
+.rightAngle{
+	
+	transform:rotateZ(-90deg);
+}
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline-block;
+	height:260px;
+	width:300px;
+}
+
+
+/* Specific properties for Ila Souria carousel */
+
+#leftAngleIla, #rightAngleIla{
+	
+	  margin-top:60px;
+
+}
+
+/* Specific properties for the private spaces carousel */
+
+#leftAnglePrivateSpaces, #rightAnglePrivateSpaces{
+	
+	  margin-top:165px;
+
+}
+
+
+
+
+/* Up button properties */
+
+#upButton img{
+	
+	height:38px;
+	width:43px;
+	margin-bottom:15px;
+}
+
+
+/**************************************************************
+***************************************************************
+FOOTER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Footer common properties */
+
+footer{
+	
+	background-color:#333366;
+	height:420px;
+	width:100%;
+	color:white;
+	text-align:center;
+	font-family:'futuramedium';
+}
+
+
+footer section{
+	
+	display:inline-block;
+	margin:20px;
+}
+
+footer b{
+	
+	font-variant:small-caps;
+	font-size:18px;
+}
+
+footer a:hover{
+	
+	color:#99cc99;
+	background-color:transparent;
+}
+
+
+footer a{
+	
+	color:#ffffff;
+	
+}
+
+/* Newsletter button and input */
+
+footer button{
+	
+height:40px;
+width:150px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-size:15px;
+font-weight:bolder;
+}
+
+
+
+footer input{
+	
+	height:30px;
+	width:200px;
+	margin:10px;
+}
+
+
+/* Social networks icons*/
+
+footer img{
+	
+	width:45px;
+	height:45px;
+}
+
+/* Bottom links (CGU, etc) */
+footer h4{
+	
+	display:block;
+	font-size:13px;
+}
+
+
+}
+
+
+
+
+
+
+/***************************************************************************************
+****************************************************************************************
+RESOLUTION SCREEN : 768px MIN WIDTH
+****************************************************************************************
+****************************************************************************************/
+
+@media screen and (min-width: 768px){
+
+/**************************************************************
+***************************************************************
+MENU
+***************************************************************
+***************************************************************/
+
+.menuCategory{
+	
+	height:50px;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#333366;
+	color:#333366;
+	font-weight:bolder;
+	line-height:50px;
+	font-size:15px;
+
+	
+}
+
+#menuSlide{
+
+		width:100%;
+		display:block;
+		text-align:center;
+		background-color:#cccccc;
+		font-family:futuramedium;
+}
+
+.menuCategory:hover{
+	
+	background-color:#99cc99;
+}
+
+#searchBar{
+	
+	margin:20px;
+}
+
+.icon{
+	
+	text-align:right;
+ }
+ 
+ .glyphicon{
+	 
+	 	color:#333366;
+
+ }
+ 
+ .glyphicon:hover{
+	
+		color:#99cc99;
+		text-shadow: 0.1em 0.1em #333366;
+ }
+/**************************************************************
+***************************************************************
+HEADER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Header common properties */
+
+
+#mainHeader {
+	
+	height:200px;
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;	
+
+}
+
+/* Header images common properties */
+
+#mainHeader img{
+	
+	vertical-align:0;
+}
+
+/* Header links common properties */
+
+#mainHeader a{
+	
+	font-family:futuramedium;
+	font-size:15px;
+}
+
+
+/* Icon Menu properties */
+
+#iconMenu {
+	
+	height:40px;
+	width:40px;
+	margin-right:60px;
+
+}
+
+/* Header first line properties */
+
+#lineHeader1 * {
+	
+	display:inline;
+	margin-top:10px;
+
+}
+
+#logo {
+	
+	height:70px;
+	width:70px;
+	margin-left:200px;
+	margin-right:150px;
+		
+}
+
+
+#iconUser {
+	
+	height:38px;
+	width:40px;
+	margin-left:70px;
+
+
+}
+
+/* Header second line properties */
+
+#lineHeader2 * {
+	
+	display:inline;
+	margin-top:10px;
+}
+
+#lineHeader2 h1 {
+	
+	font-size:20px;
+	font-family:'futuramedium';
+	font-variant:small-caps;
+	color:#333366;
+	margin-left:220px;
+	margin-right:135px;
+
+} 
+
+/* Header third line properties */
+
+#lineHeader3 a{
+	
+	margin-left:600px;
+
+}
+
+/* header fourth line properties */
+
+#lineHeader4 * {
+	
+	display:inline;
+
+}
+
+#lineHeader4{
+	
+	margin-left:600px;
+
+}
+
+.iconLanguage {
+	
+	height:27px;
+	width:27px;
+	margin-top:5px;
+}
+
+/**************************************************************
+***************************************************************
+BODY PROPERTIES
+***************************************************************
+***************************************************************/
+
+ a, a:hover, a:visited{
+	 color:#ff6666;
+	 background-color:transparent;
+	 font-weight:bolder;
+ }
+ 
+button{
+	
+height:50px;
+width:228px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-weight:bolder;
+font-size:15px;
+margin:5px;
+
+}
+ 
+ /* Parts title and bottom link */
+ 
+.title{
+	 
+	 background-color:#cccccc;
+	 height:60px;
+	 font-family:futuramedium;
+	 font-size:15px;
+	 text-align:left;	 
+	 padding-left:10px;
+
+ }
+ 
+.homeLinks{
+	 
+	 background-color:#cccccc;
+	 height:60px;
+	 font-family:futuramedium;
+	 font-size:15px;
+	 line-height:60px;
+	 text-align:left;	 
+	 padding-left:10px;
+ }
+ 
+ 
+/* Parts common properties */
+
+#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+	
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+	color:#333366;
+}
+
+/* Popular course images properties */
+#popularCourse img{
+	
+	height:300px;
+	width:450px;
+}
+
+ 
+
+/* Part : Private spaces, Sign Up information */
+
+
+#privateSpaces .title, #ilaSouria .title, #upButton .title{
+	
+	line-height:60px;
+}
+
+#privateSpaces h3{
+	
+	font-family:futuramedium;
+	font-size:18px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+#privateSpaces h4{
+	
+	margin:10px;
+	
+}
+
+.signUpInfo{
+	
+	border-color:#333366;
+	border-style:solid;
+	border-width:2px;
+	margin:20px;
+	width:350px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+
+.signUpInfo h4{
+	
+	font-family:petronaregular;
+	font-size:15px;
+	text-align:left;
+	padding-left:5px;
+}
+
+/* Carousels common properties */
+.leftAngle{
+	
+	transform:rotateZ(90deg);
+}
+
+
+.rightAngle{
+	
+	transform:rotateZ(-90deg);
+}
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline-block;
+	height:260px;
+	width:300px;
+}
+
+
+/* Specific properties for Ila Souria carousel */
+
+#leftAngleIla, #rightAngleIla{
+	
+	  margin-top:60px;
+
+}
+
+/* Specific properties for the private spaces carousel */
+
+#leftAnglePrivateSpaces, #rightAnglePrivateSpaces{
+	
+	  margin-top:165px;
+
+}
+
+
+
+
+/* Up button properties */
+
+#upButton img{
+	
+	height:38px;
+	width:43px;
+	margin-bottom:15px;
+}
+
+
+/**************************************************************
+***************************************************************
+FOOTER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Footer common properties */
+
+footer{
+	
+	background-color:#333366;
+	height:420px;
+	width:100%;
+	color:white;
+	text-align:center;
+	font-family:'futuramedium';
+}
+
+
+footer section{
+	
+	display:inline-block;
+	margin:20px;
+}
+
+footer b{
+	
+	font-variant:small-caps;
+	font-size:18px;
+}
+
+footer a:hover{
+	
+	color:#99cc99;
+	background-color:transparent;
+}
+
+
+footer a{
+	
+	color:#ffffff;
+	
+}
+
+/* Newsletter button and input */
+
+footer button{
+	
+height:40px;
+width:150px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-size:15px;
+font-weight:bolder;
+}
+
+
+
+footer input{
+	
+	height:30px;
+	width:200px;
+	margin:10px;
+}
+
+
+/* Social networks icons*/
+
+footer img{
+	
+	width:45px;
+	height:45px;
+}
+
+/* Bottom links (CGU, etc) */
+footer h4{
+	
+	display:block;
+	font-size:13px;
+}
+
+
+}
+
+
+
+
+
+/***************************************************************************************
+****************************************************************************************
+RESOLUTION SCREEN : 1024px MIN WIDTH
+****************************************************************************************
+****************************************************************************************/
+
+@media screen and (min-width: 1024px){
+
+/**************************************************************
+***************************************************************
+MENU
+***************************************************************
+***************************************************************/
+
+.menuCategory{
+	
+	height:50px;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#333366;
+	color:#333366;
+	font-weight:bolder;
+	line-height:50px;
+	font-size:15px;
+
+	
+}
+
+#menuSlide{
+
+		width:100%;
+		display:block;
+		text-align:center;
+		background-color:#cccccc;
+		font-family:futuramedium;
+}
+
+.menuCategory:hover{
+	
+	background-color:#99cc99;
+}
+
+#searchBar{
+	
+	margin:20px;
+}
+
+.icon{
+	
+	text-align:right;
+ }
+ 
+ .glyphicon{
+	 
+	 	color:#333366;
+
+ }
+ 
+ .glyphicon:hover{
+	
+		color:#99cc99;
+		text-shadow: 0.1em 0.1em #333366;
+ }
+/**************************************************************
+***************************************************************
+HEADER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Header common properties */
+
+
+#mainHeader {
+	
+	height:200px;
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;	
+
+}
+
+/* Header images common properties */
+
+#mainHeader img{
+	
+	vertical-align:0;
+}
+
+/* Header links common properties */
+
+#mainHeader a{
+	
+	font-family:futuramedium;
+	font-size:15px;
+}
+
+
+/* Icon Menu properties */
+
+#iconMenu {
+	
+	height:50px;
+	width:50px;
+	margin-right:160px;
+
+}
+
+/* Header first line properties */
+
+#lineHeader1 * {
+	
+	display:inline;
+	margin-top:10px;
+
+}
+
+#logo {
+	
+	height:90px;
+	width:90px;
+	margin-left:190px;
+	margin-right:230px;
+		
+}
+
+
+#iconUser {
+	
+	height:48px;
+	width:50px;
+	margin-left:80px;
+
+
+}
+
+/* Header second line properties */
+
+#lineHeader2 * {
+	
+	display:inline;
+	margin-top:10px;
+}
+
+#lineHeader2 h1 {
+	
+	font-size:25px;
+	font-family:'futuramedium';
+	font-variant:small-caps;
+	color:#333366;
+	margin-left:300px;
+	margin-right:190px;
+
+} 
+
+/* Header third line properties */
+
+#lineHeader3 a{
+	
+	margin-left:800px;
+
+}
+
+/* header fourth line properties */
+
+#lineHeader4 * {
+	
+	display:inline;
+
+}
+
+#lineHeader4{
+	
+	margin-left:800px;
+
+}
+
+.iconLanguage {
+	
+	height:37px;
+	width:37px;
+	margin-top:5px;
+}
+
+/**************************************************************
+***************************************************************
+BODY PROPERTIES
+***************************************************************
+***************************************************************/
+
+ a, a:hover, a:visited{
+	 color:#ff6666;
+	 background-color:transparent;
+	 font-weight:bolder;
+ }
+ 
+button{
+	
+height:50px;
+width:228px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-weight:bolder;
+font-size:15px;
+margin:5px;
+
+}
+ 
+ /* Parts title and bottom link */
+ 
+.title{
+	 
+	 background-color:#cccccc;
+	 height:80px;
+	 font-family:futuramedium;
+	 font-size:18px;
+	 text-align:left;	 
+	 padding-left:10px;
+
+ }
+ 
+.homeLinks{
+	 
+	 background-color:#cccccc;
+	 height:80px;
+	 font-family:futuramedium;
+	 font-size:18px;
+	 line-height:80px;
+	 text-align:left;	 
+	 padding-left:10px;
+ }
+ 
+ 
+/* Parts common properties */
+
+#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+	
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+	color:#333366;
+}
+
+/* Popular course images properties */
+#popularCourse img{
+	
+	height:400px;
+	width:550px;
+}
+
+ 
+
+/* Part : Private spaces, Sign Up information */
+
+
+#privateSpaces .title, #ilaSouria .title, #upButton .title{
+	
+	line-height:80px;
+}
+
+#privateSpaces h3{
+	
+	font-family:futuramedium;
+	font-size:20px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+#privateSpaces h4{
+	
+	margin:10px;
+	
+}
+
+.signUpInfo{
+	
+	border-color:#333366;
+	border-style:solid;
+	border-width:2px;
+	margin:20px;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+
+.signUpInfo h4{
+	
+	font-family:petronaregular;
+	font-size:15px;
+	text-align:left;
+	padding-left:5px;
+}
+
+/* Carousels common properties */
+.leftAngle{
+	
+	transform:rotateZ(90deg);
+	height:50px;
+	width:50px;
+}
+
+
+.rightAngle{
+	
+	transform:rotateZ(-90deg);
+	height:50px;
+	width:50px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline-block;
+	height:360px;
+	width:400px;
+}
+
+
+/* Specific properties for Ila Souria carousel */
+
+#leftAngleIla, #rightAngleIla{
+	
+	  margin-top:60px;
+
+}
+
+/* Specific properties for the private spaces carousel */
+
+#leftAnglePrivateSpaces, #rightAnglePrivateSpaces{
+	
+	  margin-top:165px;
+
+}
+
+
+
+
+/* Up button properties */
+
+#upButton img{
+	
+	height:58px;
+	width:63px;
+	margin-bottom:15px;
+}
+
+
+/**************************************************************
+***************************************************************
+FOOTER PROPERTIES
+***************************************************************
+***************************************************************/
+
+/* Footer common properties */
+
+footer{
+	
+	background-color:#333366;
+	height:420px;
+	width:100%;
+	color:white;
+	text-align:center;
+	font-family:'futuramedium';
+}
+
+
+footer section{
+	
+	display:inline-block;
+	margin:20px;
+}
+
+footer b{
+	
+	font-variant:small-caps;
+	font-size:20px;
+}
+
+footer a:hover{
+	
+	color:#99cc99;
+	background-color:transparent;
+}
+
+
+footer a{
+	
+	color:#ffffff;
+	
+}
+
+/* Newsletter button and input */
+
+footer button{
+	
+height:40px;
+width:150px;
+border-radius:10px;
+background-color:#99cc99;
+color:#333366;	
+font-family:'futuramedium';
+font-size:18px;
+font-weight:bolder;
+}
+
+
+
+footer input{
+	
+	height:40px;
+	width:300px;
+	margin:10px;
+}
+
+
+/* Social networks icons*/
+
+footer img{
+	
+	width:45px;
+	height:45px;
+}
+
+/* Bottom links (CGU, etc) */
+footer h4{
+	
+	display:block;
+	font-size:13px;
+}
+
+
+}

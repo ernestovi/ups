@@ -1,0 +1,18 @@
+/******
+
+Fonts properties
+
+******/
+@font-face {
+	
+    font-family: 'futuramedium';
+	src: url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.eot');
+    src: url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.woff2') format('woff2'),
+         url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.woff') format('woff'),
+         url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.ttf') format('truetype'),
+         url('typographies/futura/ufonts.com_futurabt-medium-opentype-webfont.svg#futuramedium') format('svg');   
+	font-weight: normal;
+    font-style: normal;
+
+}

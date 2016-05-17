@@ -1,0 +1,27 @@
+$( document ).ready(function() {
+	
+	document.getElementById("menuSlide").style.display = "none";
+	
+	//Open menu
+	$("#iconMenu").click(function(){
+		
+		if( screen.width < 1920 && screen.height < 1080 ){
+			
+			document.getElementById("menuSlide").style.display = "inline-block";
+			document.getElementById("pageContent").style.display = "none";
+
+		}
+
+	});
+	
+	$("#closeMenu").click(function(){
+		
+		if( screen.width < 1920 && screen.height < 1080 ){
+			
+			document.getElementById("menuSlide").style.display = "none";
+			document.getElementById("pageContent").style.display = "inline";
+
+		}
+	});
+
+});

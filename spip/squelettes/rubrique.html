@@ -13,18 +13,51 @@
 	
 	<script src="#CHEMIN{themeups\js\bootstrap.min.js}"></script>
 	<link rel="stylesheet" type="text/css" href="#CHEMIN{themeups/css/bootstrap.min.css}">
+	
+	<script src="#CHEMIN{themeups\js\frontFunctions.js}"></script>
 	<link rel="stylesheet" type="text/css" href="#CHEMIN{themeups/css/accueil.css}">
   
 </head>
 
 <body>
 
+<div id="menuSlide">
+
+<div class="icon">
+  <a><span id="closeMenu" class="glyphicon glyphicon-remove icons"aria-hidden="true"></span></a>
+</div>
+
+<div id="searchBar">
+#FORMULAIRE_RECHERCHE
+</div>
+
+<a><div class="menuCategory">A propos d'UPS</div></a>
+<a><div class="menuCategory">Cours</div></a>
+<a><div class="menuCategory">Nos actions</div></a>
+<a><div class="menuCategory">Actualités</div></a>
+<a><div class="menuCategory">Espace privé</div></a>
+
+</div>
+
+<div id="pageContent">
+
 <!-- Header du site Web -->
 	<header id="mainHeader">
 	
+	
 	<div id="lineHeader1">
-		<a href="#"><img id="iconMenu" src="#CHEMIN{themeups\img\menu.png}"/></a>
-		
+		<!--
+<div id="volet_clos">
+<div id="volet">
+    <p>Lorem Elsass ipsum réchime amet sed bissame so libero. DNA, leo Richard Schirmeck tellus</p>
+    <p>Wurscht elementum semper tellus s'guelt Pfourtz !</p>
+    -->
+		<a href="#menuSlide"><img id="iconMenu" src="#CHEMIN{themeups\img\menu.png}"/></a>
+	     <!--   <a href="#volet_clos" class="fermer">fermer !</a>
+
+</div></div>-->
+
+				
 		<img id="logo" src="#CHEMIN{themeups\img\logo\logo5.1.png}"/>
 		
 		<img id="iconUser" src="#CHEMIN{themeups\img\user_round.png}"/><h4 id="userName">
@@ -196,7 +229,7 @@
 		</div>
 		
 		<div id="upButton">
-		<img src="#CHEMIN{themeups\img\upButton.png}"/>
+		<a href="#mainHeader"><img src="#CHEMIN{themeups\img\upButton.png}"/></a>
 		</div>
 	
 </div>
@@ -225,6 +258,6 @@
 		<h4><a>Protection des données et CGU</a> | <a>Mentions légales</a></h4>
 	
 	</footer>
-	
-</body>
+</div>
+	</body>
 </html>
