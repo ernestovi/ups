@@ -413,16 +413,10 @@ footer b{
 
 footer a:hover{
 	
-	color:#99cc99;
+	color:#ff6666;
 	background-color:transparent;
 }
 
-
-footer a{
-	
-	color:#ffffff;
-	
-}
 
 /* Newsletter button and input */
 
@@ -447,6 +441,16 @@ footer input{
 	margin:10px;
 }
 
+footer #links{
+	
+	display:inline;
+	font-size:14px;
+}
+
+footer #links a{
+	
+	margin:10px;
+}
 
 /* Social networks icons*/
 
@@ -856,16 +860,11 @@ footer b{
 
 footer a:hover{
 	
-	color:#99cc99;
+	color:#ff6666;
 	background-color:transparent;
 }
 
-
-footer a{
-	
-	color:#ffffff;
-	
-}
+ 
 
 /* Newsletter button and input */
 
@@ -888,6 +887,17 @@ footer input{
 	height:30px;
 	width:200px;
 	margin:10px;
+}
+
+footer #links{
+	
+	display:inline;
+	font-size:15px;
+}
+
+footer #links a{
+	
+	margin:20px;
 }
 
 
@@ -1300,16 +1310,11 @@ footer b{
 
 footer a:hover{
 	
-	color:#99cc99;
+	color:#ff6666;
 	background-color:transparent;
 }
 
-
-footer a{
-	
-	color:#ffffff;
-	
-}
+ 
 
 /* Newsletter button and input */
 
@@ -1334,6 +1339,16 @@ footer input{
 	margin:10px;
 }
 
+footer #links{
+	
+	display:inline;
+	font-size:15px;
+}
+
+footer #links a{
+	
+	margin:20px;
+}
 
 /* Social networks icons*/
 
@@ -1749,16 +1764,11 @@ footer b{
 
 footer a:hover{
 	
-	color:#99cc99;
+	color:#ff6666;
 	background-color:transparent;
 }
 
-
-footer a{
-	
-	color:#ffffff;
-	
-}
+ 
 
 /* Newsletter button and input */
 
@@ -1783,6 +1793,16 @@ footer input{
 	margin:10px;
 }
 
+footer #links{
+	
+	display:inline;
+	font-size:15px;
+}
+
+footer #links a{
+	
+	margin:30px;
+}
 
 /* Social networks icons*/
 
@@ -2214,16 +2234,11 @@ footer b{
 
 footer a:hover{
 	
-	color:#99cc99;
+	color:#ff6666;
 	background-color:transparent;
 }
 
-
-footer a{
-	
-	color:#ffffff;
-	
-}
+ 
 
 /* Newsletter button and input */
 
@@ -2248,6 +2263,16 @@ footer input{
 	margin:10px;
 }
 
+footer #links{
+	
+	display:inline;
+	font-size:15px;
+}
+
+footer #links a{
+	
+	margin:30px;
+}
 
 /* Social networks icons*/
 

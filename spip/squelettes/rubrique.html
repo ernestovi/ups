@@ -31,11 +31,9 @@
 #FORMULAIRE_RECHERCHE
 </div>
 
-<a><div class="menuCategory">A propos d'UPS</div></a>
-<a><div class="menuCategory">Cours</div></a>
-<a><div class="menuCategory">Nos actions</div></a>
-<a><div class="menuCategory">Actualités</div></a>
-<a><div class="menuCategory">Espace privé</div></a>
+<BOUCLE_liste_rubriques(RUBRIQUES) {id_parent=5} {tout}>
+		<a><div class="menuCategory">#TITRE</div></a>
+</BOUCLE_liste_rubriques>
 
 </div>
 
@@ -245,7 +243,8 @@
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_linkedin.png}"/></a>
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_rss-icon.png}"/></a>
 	</section>
-	
+	<br><section id="links"><a href="">Contacts</a><a href="">FAQ</a></section>
+	<br>
 		<h4><a>Protection des données et CGU</a> | <a>Mentions légales</a></h4>
 	
 	</footer>

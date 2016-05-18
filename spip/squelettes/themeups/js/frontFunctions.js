@@ -12,7 +12,31 @@ $( document ).ready(function() {
 
 		}
 		
-		else if( screen.width > 800 ){
+		else if(screen.width >= 1280){
+			
+			document.getElementById("menuSlide").style.display = "inline-block";
+			
+			document.getElementById("iconMenu").style.display = "none";
+			
+			document.getElementById("textLogo").style.marginLeft = "200px";
+			document.getElementById("textLogo").style.marginRight = "240px";
+			
+			document.getElementById("iconUser").style.marginLeft = "0px";
+			
+			var lineHeader3 = document.getElementById("lineHeader3");
+			lineHeader3.getElementsByTagName('a')[0].style.marginLeft = "800px";
+
+			document.getElementById("lineHeader4").style.marginLeft = "1130px";
+			
+			document.getElementById("popularCourse").style.marginLeft = "200px";
+			
+			var popularCourseTitle = document.getElementById("popularCourse");
+			popularCourseTitle.getElementsByClassName("title")[0].style.width = "900px";
+
+
+		}
+		
+		else if( (screen.width > 1280) && (screen.width <= 1024) ){
 			
 			document.getElementById("menuSlide").style.display = "inline-block";
 			
@@ -47,7 +71,7 @@ $( document ).ready(function() {
 
 		}
 		
-		else if( screen.width > 800 ){
+		else if( screen.width >= 1280 ){
 			
 			document.getElementById("menuSlide").style.display = "none";
 			document.getElementById("iconMenu").style.display = "inline-block";
