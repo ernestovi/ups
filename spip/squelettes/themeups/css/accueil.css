@@ -1824,23 +1824,23 @@ MENU
 
 .menuCategory{
 	
-	height:50px;
+	height:60px;
 	background-color:#ffffff;
 	border-style:solid;
 	border-width:1px;
 	border-color:#333366;
 	color:#333366;
 	font-weight:bolder;
-	line-height:50px;
-	font-size:15px;
+	line-height:60px;
+	font-size:18px;
 
 	
 }
 
 #menuSlide{
 
-		width:100%;
-		display:block;
+		width:330px;
+		float:left;
 		text-align:center;
 		background-color:#cccccc;
 		font-family:futuramedium;
@@ -1864,6 +1864,7 @@ MENU
  .glyphicon{
 	 
 	 	color:#333366;
+		font-size:25px;
 
  }
  
@@ -1952,7 +1953,7 @@ HEADER PROPERTIES
 	margin-top:10px;
 }
 
-#lineHeader2 h1 {
+#lineHeader2 #textLogo {
 	
 	font-size:30px;
 	font-family:'futuramedium';
