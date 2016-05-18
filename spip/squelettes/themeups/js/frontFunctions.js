@@ -5,7 +5,14 @@ $( document ).ready(function() {
 	//Open menu
 	$("#iconMenu").click(function(){
 		
-		if( screen.width < 1920 && screen.height < 1080 ){
+		if( screen.width =< 800 ){
+			
+			document.getElementById("menuSlide").style.display = "inline-block";
+			document.getElementById("pageContent").style.display = "none";
+
+		}
+		
+		else if( screen.width >= 1280 ){
 			
 			document.getElementById("menuSlide").style.display = "inline-block";
 			document.getElementById("pageContent").style.display = "none";
@@ -16,7 +23,7 @@ $( document ).ready(function() {
 	
 	$("#closeMenu").click(function(){
 		
-		if( screen.width < 1920 && screen.height < 1080 ){
+		if( screen.width < 800 ){
 			
 			document.getElementById("menuSlide").style.display = "none";
 			document.getElementById("pageContent").style.display = "inline";
