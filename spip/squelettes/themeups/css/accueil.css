@@ -1403,8 +1403,8 @@ MENU
 
 #menuSlide{
 
-		width:100%;
-		display:block;
+		width:300px;
+		float:left;
 		text-align:center;
 		background-color:#cccccc;
 		font-family:futuramedium;
@@ -1428,7 +1428,7 @@ MENU
  .glyphicon{
 	 
 	 	color:#333366;
-
+		font-size:25px;
  }
  
  .glyphicon:hover{
@@ -1516,14 +1516,14 @@ HEADER PROPERTIES
 	margin-top:10px;
 }
 
-#lineHeader2 h1 {
+#lineHeader2 #textLogo {
 	
-	font-size:25px;
+	font-size:30px;
 	font-family:'futuramedium';
 	font-variant:small-caps;
 	color:#333366;
-	margin-left:300px;
-	margin-right:190px;
+	margin-left:260px;
+	margin-right:170px;
 
 } 
 
