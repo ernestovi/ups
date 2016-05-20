@@ -265,7 +265,7 @@ margin:5px;
  
 /* Parts common properties */
 
-#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+#popularCourse, #privateSpaces, #ilaSouria, .upButton{
 	
 	display:block;
 	text-align:center;
@@ -285,7 +285,7 @@ margin:5px;
 /* Part : Private spaces, Sign Up information */
 
 
-#privateSpaces .title, #ilaSouria .title, #upButton .title{
+#privateSpaces .title, #ilaSouria .title, .upButton .title{
 	
 	line-height:50px;
 }
@@ -372,7 +372,7 @@ margin:5px;
 
 /* Up button properties */
 
-#upButton img{
+.upButton img{
 	
 	height:38px;
 	width:43px;
@@ -714,7 +714,7 @@ margin:5px;
  
 /* Parts common properties */
 
-#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+#popularCourse, #privateSpaces, #ilaSouria, .upButton{
 	
 	display:block;
 	text-align:center;
@@ -734,7 +734,7 @@ margin:5px;
 /* Part : Private spaces, Sign Up information */
 
 
-#privateSpaces .title, #ilaSouria .title, #upButton .title{
+#privateSpaces .title, #ilaSouria .title, .upButton .title{
 	
 	line-height:60px;
 }
@@ -821,7 +821,7 @@ height:50px;
 
 /* Up button properties */
 
-#upButton img{
+.upButton img{
 	
 	height:38px;
 	width:43px;
@@ -1165,7 +1165,7 @@ margin:5px;
  
 /* Parts common properties */
 
-#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+#popularCourse, #privateSpaces, #ilaSouria, .upButton{
 	
 	display:block;
 	text-align:center;
@@ -1185,7 +1185,7 @@ margin:5px;
 /* Part : Private spaces, Sign Up information */
 
 
-#privateSpaces .title, #ilaSouria .title, #upButton .title{
+#privateSpaces .title, #ilaSouria .title, .upButton .title{
 	
 	line-height:60px;
 }
@@ -1273,7 +1273,7 @@ margin:5px;
 
 /* Up button properties */
 
-#upButton img{
+.upButton img{
 	
 	height:38px;
 	width:43px;
@@ -1615,7 +1615,7 @@ margin:5px;
  
 /* Parts common properties */
 
-#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+#popularCourse, #privateSpaces, #ilaSouria, .upButton{
 	
 	display:block;
 	text-align:center;
@@ -1635,7 +1635,7 @@ margin:5px;
 /* Part : Private spaces, Sign Up information */
 
 
-#privateSpaces .title, #ilaSouria .title, #upButton .title{
+#privateSpaces .title, #ilaSouria .title, .upButton .title{
 	
 	line-height:80px;
 }
@@ -1729,7 +1729,7 @@ margin:5px;
 
 /* Up button properties */
 
-#upButton img{
+.upButton img{
 	
 	height:58px;
 	width:63px;
@@ -2078,7 +2078,7 @@ margin:5px;
  
 /* Parts common properties */
 
-#popularCourse, #privateSpaces, #ilaSouria, #upButton{
+#popularCourse, #privateSpaces, #ilaSouria, .upButton{
 	
 	display:block;
 	text-align:center;
@@ -2103,7 +2103,7 @@ margin:5px;
 /* Part : Private spaces, Sign Up information */
 
 
-#privateSpaces .title, #ilaSouria .title, #upButton .title{
+#privateSpaces .title, #ilaSouria .title, .upButton .title{
 	
 	line-height:90px;
 }
@@ -2201,7 +2201,7 @@ margin:5px;
 
 /* Up button properties */
 
-#upButton img{
+.upButton img{
 	
 	height:58px;
 	width:63px;
@@ -2301,7 +2301,7 @@ footer h4{
 
 }
 
-#boucle_articleContent{
+.boucle_articleContent{
 	
 	font-size:15px;
 	font-family:petronaregular;
@@ -2310,6 +2310,12 @@ footer h4{
 	
 }
 
+.articleContent h3{
+	
+	font-family:petronaregular;
+	font-size:15px;
+	margin:20px;
+}
 .articleContent{
 	
 	display:block;
@@ -2317,13 +2323,17 @@ footer h4{
 
 }
 
+
+
 .articleImg {
 	
 	margin:10px;
 	display:inline-block;
 }
 
-#signataire_inscription{
+.inscriptionButton{
 	
 	margin:20px;
 }
+
+
