@@ -439,6 +439,8 @@ footer input{
 	height:30px;
 	width:200px;
 	margin:10px;
+	color:#333366;
+
 }
 
 footer #links{
@@ -887,6 +889,8 @@ footer input{
 	height:30px;
 	width:200px;
 	margin:10px;
+	color:#333366;
+
 }
 
 footer #links{
@@ -1337,6 +1341,8 @@ footer input{
 	height:30px;
 	width:200px;
 	margin:10px;
+	color:#333366;
+
 }
 
 footer #links{
@@ -1791,6 +1797,8 @@ footer input{
 	height:40px;
 	width:300px;
 	margin:10px;
+	color:#333366;
+
 }
 
 footer #links{
@@ -2261,6 +2269,7 @@ footer input{
 	height:40px;
 	width:300px;
 	margin:10px;
+	color:#333366;
 }
 
 footer #links{
@@ -2290,4 +2299,31 @@ footer h4{
 }
 
 
+}
+
+#boucle_articleContent{
+	
+	font-size:15px;
+	font-family:petronaregular;
+	color:#333366;
+	text-align:left;
+	
+}
+
+.articleContent{
+	
+	display:block;
+		margin:50px;
+
+}
+
+.articleImg {
+	
+	margin:10px;
+	display:inline-block;
+}
+
+#signataire_inscription{
+	
+	margin:20px;
 }
