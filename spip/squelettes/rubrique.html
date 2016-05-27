@@ -52,19 +52,20 @@
 		<img id="iconUser" src="#CHEMIN{themeups\img\user_round.png}"/><h4 id="userName">
 	</div>
 	<div id="lineHeader2">
-		<h1 id="textLogo"><b>Université Populaire Syrienne</b></h1>
+		<h1 id="textLogo"><b>
+		<multi>[fr]Université Populaire Syrienne[en]Popular Syrian University[ar]ﻱﺭﻮﺴﻟﺍ ﺐﻌﺸﻟﺍ ﺔﻌﻣﺎﺟ</multi></b></h1>
 		<!-- Icône de l'utilisateur connecté (ou pas)-->
-		<a href="#">Se connecter</a>
+		<a href="#"><multi>[fr]Se connecter[en]Log In[ar]ﻞﺼﺘﻳ</multi></a>
 	</div>
 	<div id="lineHeader3">
-	<a href="#">S'inscrire</a>
+	<a href="#"><multi>[fr]S'inscrire[en]Sign In[ar]ﻞﻴﺠﺴﺗ</multi></a>
 	</div>
 		
 	<div id="lineHeader4">	
 		<!-- Icônes boutons des langues FR, EN, AR -->
-		<a href="#"><img class="iconLanguage" src="#CHEMIN{themeups\img\boutonFR.png}"/></a>
-		<a href="#"><img class="iconLanguage" src="#CHEMIN{themeups\img\boutonEN.png}"/></a>	
-		<a href="#"><img  class="iconLanguage" src="#CHEMIN{themeups\img\boutonAR.png}"/></a>
+		<a href="javascript:location.search+='&lang=fr';" onclick="setLangButton('fr');"><img class="iconLanguage" src="#CHEMIN{themeups\img\boutonFR.png}"/></a>
+		<a href="javascript:location.search+='&lang=en';" onclick="setLangButton('en');"><img class="iconLanguage" src="#CHEMIN{themeups\img\boutonEN.png}"/></a>	
+		<a href="javascript:location.search+='&lang=ar';" onclick="setLangButton('ar');"><img  class="iconLanguage" src="#CHEMIN{themeups\img\boutonAR.png}"/></a>
 	</div>	
 		
 	</header>
@@ -83,14 +84,14 @@
 		<div id="popularCourse">
 		
 			<div class="title">
-				<b>Cours le plus populaire ce mois-ci</b>
-				<br> Rédaction Web avec Monsieur DUPONT
+				<b><multi>[fr]Cours le plus populaire ce mois-ci[en]Most popular course of the month[ar]الأكثر شعبية هذا الشهر</multi></b>
+				<br><multi>[fr] Rédaction Web avec Monsieur DUPONT[en] Web writing with M. DUPONT[ar] ﺖﻧﻮﺑﻭﺩ ﺪﻴﺴﻟﺍ ﻊﻣ ﺖﻧﺮﺘﻧﻹﺍ ﺔﻜﺒﺷ ﻰﻠﻋ ﺔﺑﺎﺘﻜﻟﺍ</multi>
 			</div>
 			<br>
 			<img src="#CHEMIN{themeups\img\computer.png}"/>
 			<br>
 			<div class="homeLinks">
-			<a href="#">Voir tous les cours</a>
+			<a href="#"><multi>[fr]Voir tous les cours[en]See all courses[ar]ﺕﺍﺭﻭﺪﻟﺍ ﻊﻴﻤﺟ ﺔﻳﺅﺭ</multi></a>
 			</div>
 			
 		</div>
@@ -98,54 +99,96 @@
 		<div id="privateSpaces">
 		 
 			<div class="title">
-				<b>Espace privé et de collaboration</b>
+				<b><multi>[fr]Espace privé et de collaboration[en]Collaboration private spaces[ar]ﻲﻧﻭﺎﻌﺘﻟﺍ ءﺎﻀﻔﻟﺍ</multi></b>
 			</div>
 			
 				<div class="container">
 					<div id="privateSpacesCarousel" class="carousel slide">
 						<div class="carousel-inner" role="listbox">
 							<div class="item active signUpInfo">
-								<h3>Nos signataires</h3>										
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								<h3><multi>[fr]Nos signataires[en]Our signatories[ar]ﻦﻴﻌﻗﻮﻤﻟﺍ</multi></h3>										
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
 								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
 								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
 								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
-								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[en]Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit. Vivamus ut tempor massa. Sed mi mi, ornare quis eleifend id, 
+								rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 						
-								<button type="button" onclick="window.open('#URL_PAGE{article=3}','_self')">En savoir plus sur les signataires</button>
+								<button type="button" onclick="window.open('#URL_PAGE{article=3}','_self')"><multi>[fr]En savoir plus sur les signataires[en]More about the signatories[ar]ﻦﻴﻌﻗﻮﻤﻟﺍ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﻢﻠﻌﺗ</multi></button>
 						
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
-								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [en]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 								<br>
 							</div>
 							
 							<div class="item signUpInfo">
-								<h3>Nos formateurs</h3>					
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								<h3><multi>[fr]Nos formateurs[en]Our teachers[ar]ﻦﻴﺑﺭﺪﻤﻟﺍ</multi></h3>					
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
 								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
 								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
 								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
-								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[en]Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit. Vivamus ut tempor massa. Sed mi mi, ornare quis eleifend id, 
+								rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 						
-								<button type="button" onclick="alert('Ceci est un test Formateur!')">En savoir plus sur les formateurs</button>
+								<button type="button" onclick="alert('Ceci est un test Formateur!')"><multi>[fr]En savoir plus sur les formateurs[en]More about the teachers[ar]ﻦﻴﺑﺭﺪﻤﻟﺍ ﻰﻠﻋ ﺮﺜﻛﺃ</multi></button>
 						
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
-								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [en]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 								<br>
 							</div>
 							
 							<div class="item signUpInfo">
-								<h3>Nos tuteurs</h3>
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								<h3><multi>[fr]Nos tuteurs[en]Our tutors[ar]ﺎﻨﻳﺪﻟ ﻦﻴﺳﺭﺪﻣ</multi></h3>
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
 								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. Aenean scelerisque felis ac 
 								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
 								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
-								scelerisque urna augue, scelerisque sodales felis luctus eu.</h4>
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[en]Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit. Vivamus ut tempor massa. Sed mi mi, ornare quis eleifend id, 
+								rutrum vitae nibh. Aenean scelerisque felis ac 
+								nunc auctor rhoncus. Morbi vel sagittis nibh. Nulla non diam pulvinar, molestie 
+								magna id, pulvinar mauris. Integer viverra imperdiet arcu vel sodales. Fusce 
+								scelerisque urna augue, scelerisque sodales felis luctus eu.[ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 						
-								<button type="button" onclick="alert('Ceci est un test Tuteur!')">En savoir plus sur les tuteurs</button>
+								<button type="button" onclick="alert('Ceci est un test Tuteur!')"><multi>[fr]En savoir plus sur les tuteurs[en]More about the tutors[ar]ﻦﻴﻤﻠﻌﻤﻟﺍ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﻢﻠﻌﺗ</multi></button>
 						
-								<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
-								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. </h4>
+								<h4><multi>[fr]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [en]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut tempor massa. 
+								Sed mi mi, ornare quis eleifend id, rutrum vitae nibh. [ar]ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ 
+								ﻝﺍﺪﺒﺘﺳﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ ﻝﺍﺪﺒﺘﺳ ﺺﻨﻟﺍ </multi></h4>
 								<br>
 							</div>
 							
@@ -162,16 +205,14 @@
 					</div>
 				</div>
 			
-			<div class="homeLinks">
-			<a href="#">Se connecter</a>
-			</div>
+	
 			
 		</div>
 		
 		<div id="ilaSouria">
 		
 			<div class="title">
-				<b>L'association Ila Souria</b>
+				<b><multi>[fr]L'association Ila Souria[en]Ila Souria organization[ar]ﺔﻳﺭﻮﺴﻟ</multi></b>
 			</div>
 			
 			<!--<div id="carroussel_ila">
@@ -227,15 +268,15 @@
 <footer>
 	
 	<section id="newsletter">
-		<b>Newsletter</b><br><br>
-		Soyez au courant de tous les<br>
-		événements UPS en vous abonnant<br>
-		<input type="text" placeholder=" Votre e-mail">
-		<br><button type="button" onclick="alert('Abonnement réussi !')">S'abonner</button>
+		<b><multi>[fr]Infolettre[en]Newsletter[ar]ﺔﻳﺭﺎﺒﺧﻹﺍ ﺓﺮﺸﻨﻟﺍ</multi></b><br><br>
+		<multi>[fr]Soyez au courant de tous les[en]Make sure to be informed about[ar]ﻊﻴﻤﺠﺑ ﻢﻠﻋ ﻰﻠﻋ ﻥﻮﻜﺗ</multi><br>
+		<multi>[fr]événements UPS en vous abonnant[en]all UPS events by subscribing to our newsletter[ar]ﻙﺍﺮﺘﺷﻻﺍ ﻖﻳﺮﻃ ﻦﻋ ﺔﻌﻣﺎﺠﻟﺍ ﺙﺍﺪﺣﺃ</multi><br>
+		<input type="text" placeholder=" <multi>[fr]Votre e-mail[en]test</multi>">
+		<br><button type="button" onclick="alert('Abonnement en construction')"><multi>[fr]S'abonner[en]Subscribe[ar]ﻙﺍﺮﺘﺷﻻﺍ</multi></button>
 	</section>
 <br>
 	<section id="socialMedias">
-		<b>Réseaux Sociaux</b><br><br>
+		<b><multi>[fr]Réseaux Sociaux[en]Social Networks[ar]ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺕﺎﻜﺒﺸﻟﺍ</multi></b><br><br>
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_Facebook-icon.png}"/></a>
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_Twitter-icon.png}"/></a>
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_youtube-icon.png}"/></a>
@@ -243,9 +284,9 @@
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_linkedin.png}"/></a>
 		<a href="#"><img src="#CHEMIN{themeups\img\blancnoir_rss-icon.png}"/></a>
 	</section>
-	<br><section id="links"><a href="">Contacts</a><a href="">FAQ</a></section>
+	<br><section id="links"><a href=""><multi>[fr]Contacts[en]Contacts[ar]ﺕﻻﺎﺼﺗﻻﺍ</multi></a><a href=""><multi>[fr]FAQ[en]Q&amp;A[ar]ﺔﺑﻮﺟﺃﻭ ﺔﻠﺌﺳﺃ</multi></a></section>
 	<br>
-		<h4><a>Protection des données et CGU</a> | <a>Mentions légales</a></h4>
+		<h4><a><multi>[fr]Protection des données et CGU[en]Data protection and Terms of Services[ar]ﺕﺎﻧﺎﻴﺑ ﻡﺍﺪﺨﺘﺳﻻﺍ ﻁﻭﺮﺷﻭ ﺔﻳﺎﻤﺣ</multi></a> | <a><multi>[fr]Mentions légales[en]Legal Notice[ar]ﺔﻤﺼﺑ</multi></a></h4>
 	
 	</footer>
 </div>
